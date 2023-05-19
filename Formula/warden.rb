@@ -3,10 +3,10 @@ class Warden < Formula
   desc "Warden is a CLI utility for working with docker-compose environments"
   homepage "https://warden.dev"
   license "MIT"
-  version "0.13.2"
-  url "https://github.com/wardenenv/warden/archive/0.13.2.tar.gz"
-  sha256 "6d6d37f57df2da96de4e0cfe2c454763a4aae3c88ea6a1eb5fc9d4460d5de38f"
-  head "https://github.com/wardenenv/warden.git", :branch => "main"
+  version "tshabatyn.0.13.3"
+  url "https://github.com/tshabatyn/warden/archive/refs/tags/tshabatyn.0.13.3.tar.gz"
+  sha256 "82e0daaa940bbcd1156baa693065f34c08fc5cdb1eac0a0408e77a6d401cba99"
+  head "https://github.com/tshabatyn/warden.git", :branch => "main"
 
   depends_on "gettext"
   depends_on "pv" => :recommended
@@ -32,7 +32,7 @@ class Warden < Formula
       To print a complete list of available commands simply run "warden" without
       any arguments.
 
-      Documentation is available at: https://docs.warden.dev
+      Documentation is available at: https://tshabatyn.github.io/ or https://docs.warden.dev
     EOS
   end
 end

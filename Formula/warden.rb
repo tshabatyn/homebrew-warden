@@ -1,5 +1,5 @@
 
-class Tshabatyn/warden < Formula
+class warden < Formula
   desc "Warden is a CLI utility for working with docker-compose environments"
   homepage "https://warden.dev"
   license "MIT"

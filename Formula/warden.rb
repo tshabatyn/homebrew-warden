@@ -3,9 +3,9 @@ class Warden < Formula
   desc "Warden is a CLI utility for working with docker-compose environments"
   homepage "https://warden.dev"
   license "MIT"
-  version "tshabatyn.0.15.0"
-  url "https://github.com/tshabatyn/warden/archive/refs/tags/tshabatyn.0.15.0.tar.gz"
-  sha256 "0fd65e0702c943cc13b02157e41de3a54ef31745974400d888a6b7a02c74f69e"
+  version "tshabatyn.0.15.0a"
+  url "https://github.com/tshabatyn/warden/archive/refs/tags/tshabatyn.0.15.0a.tar.gz"
+  sha256 "d6050c0167541448e89ca5e52175d494b61563b4717bedc456691380bde4968a"
   head "https://github.com/tshabatyn/warden.git", :branch => "main"
 
   depends_on "gettext"

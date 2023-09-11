@@ -5,7 +5,7 @@ class Warden < Formula
   license "MIT"
   version "tshabatyn.0.15.0"
   url "https://github.com/tshabatyn/warden/archive/refs/tags/tshabatyn.0.15.0.tar.gz"
-  sha256 "536ab367d180c1f08b00a66ec9a70162bb248896df2213973f92c8439c04f22f"
+  sha256 "0fd65e0702c943cc13b02157e41de3a54ef31745974400d888a6b7a02c74f69e"
   head "https://github.com/tshabatyn/warden.git", :branch => "main"
 
   depends_on "gettext"
